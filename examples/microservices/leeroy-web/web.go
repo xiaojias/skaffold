@@ -19,7 +19,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	log.Print("leeroy web server ready (testing for Richard)")
+	log.Print("leeroy web server ready (Updated by Richard)")
 	http.HandleFunc("/", handler)
 	http.ListenAndServe(":8080", nil)
 }
